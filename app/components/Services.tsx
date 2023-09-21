@@ -3,11 +3,13 @@ import CategoryTile from './CategoryTile'
 
 const Services = () => {
   return (
-    <div className='flex flex-col justify-center items-center mt-20'>
-        <h3 className='uppercase text-sm font-bold text-textSecondary'>Category</h3>
-        <h2 className='text-[40px] font-bold text-center'>We Offer Best Services</h2>
+    <div className='flex flex-col  mt-20'>
+        <div className=' flex-col flex justify-center items-center'>
+            <h3 className='uppercase text-sm font-bold text-textSecondary'>Category</h3>
+            <h2 className='text-[40px] font-bold text-center'>We Offer Best Services</h2>
+        </div>        
         <section 
-        className='flex flex-col lg:flex-row lg:gap-24  gap-10 justify-between items-center my-10'>
+        className='flex flex-col lg:flex-row  gap-10 justify-between items-center my-10'>
             <CategoryTile
                 width={110}
                 height={110} 

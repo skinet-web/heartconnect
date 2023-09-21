@@ -19,7 +19,7 @@ const CategoryTile: React.FC<CategoryTileProps> = ({
     paragraph
 }) => {
   return (
-    <div className='px-10  bg-gray-200/40  rounded-2xl'>
+    <div className='px-10 shadow-xl rounded-2xl'>
         <div className='flex flex-col items-center justify-center  h-[19rem] w-[10rem] '>
             <Image 
                 src={imageUrl}
