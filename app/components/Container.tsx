@@ -14,12 +14,12 @@ const Container: React.FC<ContainerProps> = ({children}) => {
     mx-auto
     xl:px-52
     md:px-20
-    sm:px-2
+    sm:px-20
     xl:py-20
     md:py-10
     sm:py-2
     py-4
-    px-4
+    px-6
     '
     >
     {children}

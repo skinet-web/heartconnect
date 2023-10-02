@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Destination from './components/Destination'
+import BookSection from './components/BookSection'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <Hero />
           <Services />
           <Destination />
+          <BookSection />
       </Container>        
     </main>
   )
