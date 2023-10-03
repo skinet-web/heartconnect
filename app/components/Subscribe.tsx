@@ -11,7 +11,9 @@ const Subscribe = () => {
             </h2>
             <div className=' flex flex-col items-center lg:flex-row gap-5 mt-10 '>
                 <input type='text' placeholder='Your Mail' className='rounded-xl p-5 lg:w-[30rem] w-[18rem] h-20 border-2'/>
-                <Button className='w-[18rem] h-20 rounded-xl bg-gradient-to-t from-[#fc7d5a] to-[#fc7d5a] text-xl font-semiboldbold'>Subscribe</Button>
+                <Button className='w-[18rem] h-20 rounded-xl bg-gradient-to-t from-[#fc7d5a] to-[#fc7d5a] 
+                hover:from-[#fc7d5a] hover:to-[#fc9275]              
+                text-xl font-semiboldbold'>Subscribe</Button>
             </div>
             <Image 
                 src='/book/arrow.png'

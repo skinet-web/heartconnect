@@ -20,10 +20,10 @@ const Navbar = () => {
             />
         </div>
         <section className='lg:flex hidden gap-16 items-center'>
-            <h2 className='font-semibold'>Destinations</h2>
-            <h2 className='font-semibold'>Hotels</h2>
-            <h2 className='font-semibold'>Flights</h2>
-            <h2 className='font-semibold'>Bookings</h2>
+            <h2 className='font-semibold cursor-pointer hover:text-black/70'>Destinations</h2>
+            <h2 className='font-semibold cursor-pointer hover:text-black/70'>Hotels</h2>
+            <h2 className='font-semibold cursor-pointer hover:text-black/70'>Flights</h2>
+            <h2 className='font-semibold cursor-pointer hover:text-black/70'>Bookings</h2>
             <div className='flex gap-4'>
               <Button className='w-24'>Login</Button>
               <Button className='w-24'>Sign Up</Button>    
