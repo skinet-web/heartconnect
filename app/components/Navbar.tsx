@@ -12,12 +12,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center'>
         <div className='md:w-80'>
-            <Image 
-                src='/Jadoo.svg'
-                width={100}
-                height={100}
-                alt='Logo'
-            />
+           <h1 className='font-bold text-2xl'>HeartConnect.</h1>
         </div>
         <section className='lg:flex hidden gap-16 items-center'>
             <h2 className='font-semibold cursor-pointer hover:text-black/70'>Destinations</h2>

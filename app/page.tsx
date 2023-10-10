@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Destination from './components/Destination'
 import BookSection from './components/BookSection'
 import Subscribe from './components/Subscribe'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Destination />
           <BookSection />
           <Subscribe />
+          <Footer />
       </Container>        
     </main>
   )
